@@ -50,7 +50,7 @@ public class ApiTest {
 		}
 		ApiTest res = new ApiTest();//通过类，返回多个数据userNameON，userNameOFF
 
-		return res;
+		return res;//通过类的形式返回多个变量信息
 
 	}
 

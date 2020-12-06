@@ -14,8 +14,8 @@ import com.alibaba.fastjson.JSONObject;
 import cn.hutool.http.HttpRequest;
 
 /**
- * @author ·ëÉ­
- *
+ * @author å†¯æ£®
+ *Git ç¬¬ä¸€æ¬¡æ›´æ–°
  */
 public class ApiTest {
 
@@ -44,11 +44,11 @@ public class ApiTest {
 			
 		//	System.out.println(list.toString());
 			
-			userNameON = list.get(0).get_widget_1604306342560();//¿ªµç³µ¼ä	
-			userNameOFF = list.get(0).get_widget_1605066457240();//¹Ûµç³µ¼ä
+			userNameON = list.get(0).get_widget_1604306342560();//å¼€ç”µè½¦é—´	
+			userNameOFF = list.get(0).get_widget_1605066457240();//è§‚ç”µè½¦é—´
 	
 		}
-		ApiTest res = new ApiTest();//Í¨¹ıÀà£¬·µ»Ø¶à¸öÊı¾İuserNameON£¬userNameOFF
+		ApiTest res = new ApiTest();//é€šè¿‡ç±»ï¼Œè¿”å›å¤šä¸ªæ•°æ®userNameONï¼ŒuserNameOFF
 
 		return res;
 
